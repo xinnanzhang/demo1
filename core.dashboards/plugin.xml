@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+  <extension
+       point="org.eclipse.ui.editors">
+    <editor
+          class="core.editors.DashboardPanel"
+          id="core.editors.DashboardPanel"
+          name="Dashboard">
+    </editor>
+ </extension>
+</plugin>

@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LinkDefDlg.SearchGroupToolTip" xml:space="preserve">
+    <value>查找或创建一个搜索群组。</value>
+  </data>
+  <data name="ChartColorTheme.Autumn" xml:space="preserve">
+    <value>秋季</value>
+  </data>
+  <data name="Chart.ChartDrilldownLine" xml:space="preserve">
+    <value>折线图</value>
+  </data>
+  <data name="ChartColorTheme.IntenseNaturals" xml:space="preserve">
+    <value>热情的大自然</value>
+  </data>
+  <data name="DurationUnit.Months" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="DashboardPartDefListController.ConfirmDelete" xml:space="preserve">
+    <value>现有仪表板可能使用本部件。是否确定要删除该部件？</value>
+  </data>
+  <data name="DateRange.Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Chart.FieldNotSelected" xml:space="preserve">
+    <value>请输入字段值</value>
+  </data>
+  <data name="Gauge.High" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Chart.InputThresholdLow" xml:space="preserve">
+    <value>值必须在最小值和最大值范围之内。</value>
+  </data>
+  <data name="GridOptionCtrl.TabText" xml:space="preserve">
+    <value>网格</value>
+  </data>
+  <data name="Chart.SubGroupByPageDesc" xml:space="preserve">
+    <value>提供定义图表辅助分组方法的功能部件。 </value>
+  </data>
+  <data name="DurationUnit.Days" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="Chart.ColorModelPureRandom" xml:space="preserve">
+    <value>纯随机</value>
+  </data>
+  <data name="Chart.LabelAndPercentLabelStyle" xml:space="preserve">
+    <value>标签和百分比</value>
+  </data>
+  <data name="Gauge.Middle" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Chart.Speedometer" xml:space="preserve">
+    <value>速度计</value>
+  </data>
+  <data name="LinkDefDlg.TextNotDefined" xml:space="preserve">
+    <value>请输入文字。</value>
+  </data>
+  <data name="TimeInterval.Yearly" xml:space="preserve">
+    <value>每年</value>
+  </data>
+  <data name="GridPartControl.HideGroupBy" xml:space="preserve">
+    <value>隐藏群组</value>
+  </data>
+  <data name="Chart.EvaluateByFieldMin" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="Chart.EvaluateByFieldMax" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="Chart.EvaluateByFieldSum" xml:space="preserve">
+    <value>合计</value>
+  </data>
+  <data name="DashboardPartDefListController.EditDashboardPart" xml:space="preserve">
+    <value>编辑 $$(CATEGORY)$$</value>
+  </data>
+  <data name="DataConverter.DurationQuarter" xml:space="preserve">
+    <value>$$(DURATION)$$ 季</value>
+  </data>
+  <data name="ChartColorTheme.Fashion" xml:space="preserve">
+    <value>时尚</value>
+  </data>
+  <data name="LinkListPartControl.FailedLink" xml:space="preserve">
+    <value>打开以下路径时出错：$$(FILEPATH)$$.</value>
+  </data>
+  <data name="TimeInterval.Weekly" xml:space="preserve">
+    <value>每周</value>
+  </data>
+  <data name="LinkDefDlg.UrlNotDefined" xml:space="preserve">
+    <value>请输入 URL 或文件路径。</value>
+  </data>
+  <data name="Chart.Group" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="Chart.Above" xml:space="preserve">
+    <value>以上</value>
+  </data>
+  <data name="Chart.DoubleCategoryTooltipFormat" xml:space="preserve">
+    <value>(SERIES_LABEL), (ITEM_LABEL) = (DATA_VALUE:0)</value>
+  </data>
+  <data name="Chart.NumericDisplayRadioBtn" xml:space="preserve">
+    <value>数字显示仪</value>
+  </data>
+  <data name="Chart.LegendLocationLeft" xml:space="preserve">
+    <value>左侧</value>
+  </data>
+  <data name="GaugeLinearPartControl.Thermometer" xml:space="preserve">
+    <value>温度计</value>
+  </data>
+  <data name="DrilldownPage.Column3" xml:space="preserve">
+    <value>第3列</value>
+  </data>
+  <data name="DrilldownPage.Column2" xml:space="preserve">
+    <value>第2列</value>
+  </data>
+  <data name="DrilldownPage.Column1" xml:space="preserve">
+    <value>第1列</value>
+  </data>
+  <data name="DrilldownPage.Column0" xml:space="preserve">
+    <value>第0列</value>
+  </data>
+  <data name="Chart.Thermometer" xml:space="preserve">
+    <value>温度计</value>
+  </data>
+  <data name="LinkListPartControl.AccessDenied" xml:space="preserve">
+    <value>您不能访问该路径：$$(FILEPATH)$$.</value>
+  </data>
+  <data name="ChartColorTheme.Shasta" xml:space="preserve">
+    <value>大滨菊</value>
+  </data>
+  <data name="Chart.BackgroundColor" xml:space="preserve">
+    <value>选择此控件的背景色。</value>
+  </data>
+  <data name="Chart.ChartDrilldownGroupByPageDesc" xml:space="preserve">
+    <value>提供定义钻取图表的分组方法和求值方法选择的功能部件。</value>
+  </data>
+  <data name="Chart.EnterName" xml:space="preserve">
+    <value>控件的名称</value>
+  </data>
+  <data name="DateRange.LastMonth" xml:space="preserve">
+    <value>上月</value>
+  </data>
+  <data name="PartMenu.PrintPreview" xml:space="preserve">
+    <value>打印预览</value>
+  </data>
+  <data name="SelectPartCategoryDlg.Chart" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="Chart.LabelOrientationStyle" xml:space="preserve">
+    <value>选择标签方向样式。</value>
+  </data>
+  <data name="LinkListPartControl.BusObViewRight" xml:space="preserve">
+    <value>您无权查看链接。</value>
+  </data>
+  <data name="GridPartControl.Next" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="GridPartControl.Prev" xml:space="preserve">
+    <value>前一页</value>
+  </data>
+  <data name="GridPartControl.Page" xml:space="preserve">
+    <value>页面： </value>
+  </data>
+  <data name="Chart.PrintingError" xml:space="preserve">
+    <value>打印错误。请检查连接。</value>
+  </data>
+  <data name="Chart.InProgress" xml:space="preserve">
+    <value>正在进行功能部件实施 ...</value>
+  </data>
+  <data name="Chart.ChartDrilldownGroupByPageHeading" xml:space="preserve">
+    <value>子图表 – 主群组选择</value>
+  </data>
+  <data name="Chart.SelectRecordPageHeading" xml:space="preserve">
+    <value>默认日期范围选择</value>
+  </data>
+  <data name="DashboardDefListController.DeleteGlobalHomePage" xml:space="preserve">
+    <value>不能删除全局主页仪表板。</value>
+  </data>
+  <data name="ChartColorTheme.CoolHues" xml:space="preserve">
+    <value>冷色调</value>
+  </data>
+  <data name="TimeInterval.Daily" xml:space="preserve">
+    <value>每天</value>
+  </data>
+  <data name="DashboardControl.PartDefNotFound" xml:space="preserve">
+    <value>已删除此部件 ($$(PARTNAME)$$)。</value>
+  </data>
+  <data name="Chart.DurationNotSelected" xml:space="preserve">
+    <value>请输入持续时间值</value>
+  </data>
+  <data name="Chart.ChartDrilldownColumn" xml:space="preserve">
+    <value>柱形图</value>
+  </data>
+  <data name="Chart.NumericDisplay" xml:space="preserve">
+    <value>数字显示仪</value>
+  </data>
+  <data name="DashboardPartControl.ViewDropDownLabel" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Chart.QueryGroupNotSelected" xml:space="preserve">
+    <value>请选择搜索群组。</value>
+  </data>
+  <data name="DateRange.Yesterday" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="Chart.EnterQueryGroup" xml:space="preserve">
+    <value>搜索群组列表</value>
+  </data>
+  <data name="Chart.SearchGroupToolTip" xml:space="preserve">
+    <value>查找或创建一个搜索群组。</value>
+  </data>
+  <data name="Chart.LabelDataFormatString" xml:space="preserve">
+    <value>(ITEM_LABEL)((DATA_VALUE:0.0))</value>
+  </data>
+  <data name="Chart.ItemLabelFormatString" xml:space="preserve">
+    <value>(ITEM_LABEL)</value>
+  </data>
+  <data name="PartStatus.Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="DataConverter.WeekMonthYear" xml:space="preserve">
+    <value>$$(WEEK)$$/$$(MONTH)$$/$$(YEAR)$$</value>
+  </data>
+  <data name="HourInterval.TenAM" xml:space="preserve">
+    <value>上午 10 点</value>
+  </data>
+  <data name="HourInterval.TenPM" xml:space="preserve">
+    <value>下午 10 点</value>
+  </data>
+  <data name="HourInterval.TwoPM" xml:space="preserve">
+    <value>下午 2 点</value>
+  </data>
+  <data name="HourInterval.TwoAM" xml:space="preserve">
+    <value>上午 2 点</value>
+  </data>
+  <data name="HourInterval.SixPM" xml:space="preserve">
+    <value>下午 6 点</value>
+  </data>
+  <data name="HourInterval.SixAM" xml:space="preserve">
+    <value>上午 6 点</value>
+  </data>
+  <data name="Chart.ColorModelCustomLinear" xml:space="preserve">
+    <value>非线性</value>
+  </data>
+  <data name="Chart.NoneLabelStyle" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="HourInterval.OnePM" xml:space="preserve">
+    <value>下午 1 点</value>
+  </data>
+  <data name="HourInterval.OneAM" xml:space="preserve">
+    <value>上午 1 点</value>
+  </data>
+  <data name="ChartColorTheme.Primary" xml:space="preserve">
+    <value>首选</value>
+  </data>
+  <data name="Chart.TickMarkStyleDataInterval" xml:space="preserve">
+    <value>两个勾号之间的距离，用实际数据单位表示。</value>
+  </data>
+  <data name="HourInterval.ThreePM" xml:space="preserve">
+    <value>下午 3 点</value>
+  </data>
+  <data name="HourInterval.ThreeAM" xml:space="preserve">
+    <value>上午 3 点</value>
+  </data>
+  <data name="Chart.FieldSelectionPageDesc" xml:space="preserve">
+    <value>提供定义图表首选分组方法和求值方法的功能部件。 </value>
+  </data>
+  <data name="QueryLimitCtrl.Bottom" xml:space="preserve">
+    <value>下限</value>
+  </data>
+  <data name="ChartColorTheme.RichHues" xml:space="preserve">
+    <value>丰富的色调</value>
+  </data>
+  <data name="Chart.ImageStyleTiled" xml:space="preserve">
+    <value>平铺</value>
+  </data>
+  <data name="Chart.TooltipBackColor" xml:space="preserve">
+    <value>选择工具提示的背景色。</value>
+  </data>
+  <data name="DataConverter.NoRecord" xml:space="preserve">
+    <value>无记录</value>
+  </data>
+  <data name="Chart.EvaluateByFieldCount" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Chart.DataValueFormatString" xml:space="preserve">
+    <value>(DATA_VALUE:0)</value>
+  </data>
+  <data name="Chart.ColumnChart" xml:space="preserve">
+    <value>柱形图</value>
+  </data>
+  <data name="PartSelector.ConfirmDeletePart" xml:space="preserve">
+    <value>是否确定要删除部件？</value>
+  </data>
+  <data name="GridQueryOptionCtrl.BusObNotSelected" xml:space="preserve">
+    <value>请选择业务对象。</value>
+  </data>
+  <data name="Chart.LineChart" xml:space="preserve">
+    <value>折线图</value>
+  </data>
+  <data name="Grid.IdField" xml:space="preserve">
+    <value>RecId</value>
+  </data>
+  <data name="Chart.BarChart" xml:space="preserve">
+    <value>条形图</value>
+  </data>
+  <data name="ChartColorTheme.MixedCombinations" xml:space="preserve">
+    <value>混合组合</value>
+  </data>
+  <data name="ChartColorTheme.BrowserSafeII" xml:space="preserve">
+    <value>浏览器安全二</value>
+  </data>
+  <data name="Chart.HorizontalLabel" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="LinkListPartControl.FileNotFound" xml:space="preserve">
+    <value>系统找不到该路径：$$(FILEPATH)$$.</value>
+  </data>
+  <data name="Chart.ColumnRadioBtn" xml:space="preserve">
+    <value>柱形图</value>
+  </data>
+  <data name="Chart.ColorModelAlphaLevel" xml:space="preserve">
+    <value>设置 alpha 混合值，范围从 0 至 255，255 表示完全不透明。</value>
+  </data>
+  <data name="WeekInterval.W6" xml:space="preserve">
+    <value>周六</value>
+  </data>
+  <data name="WeekInterval.W5" xml:space="preserve">
+    <value>周五</value>
+  </data>
+  <data name="WeekInterval.W4" xml:space="preserve">
+    <value>周四</value>
+  </data>
+  <data name="WeekInterval.W3" xml:space="preserve">
+    <value>周三</value>
+  </data>
+  <data name="WeekInterval.W2" xml:space="preserve">
+    <value>周二</value>
+  </data>
+  <data name="WeekInterval.W1" xml:space="preserve">
+    <value>W1</value>
+  </data>
+  <data name="DateRange.ThisMonth" xml:space="preserve">
+    <value>本月</value>
+  </data>
+  <data name="ChartColorTheme.Culture" xml:space="preserve">
+    <value>文化</value>
+  </data>
+  <data name="Chart.SpeedometerRadioBtn" xml:space="preserve">
+    <value>速度计</value>
+  </data>
+  <data name="DataConverter.WeekNumber" xml:space="preserve">
+    <value>周 $$(NUM)$$</value>
+  </data>
+  <data name="ChartColorTheme.AgedNaturals" xml:space="preserve">
+    <value>亘古的大自然</value>
+  </data>
+  <data name="Chart.LabelAndDataLabelStyle" xml:space="preserve">
+    <value>标签和数据</value>
+  </data>
+  <data name="Chart.MaxValue" xml:space="preserve">
+    <value>量表的最大值。</value>
+  </data>
+  <data name="Chart.PieRadioBtn" xml:space="preserve">
+    <value>饼图</value>
+  </data>
+  <data name="DurationUnit.Minutes" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="ChartColorTheme.BrowserSafeI" xml:space="preserve">
+    <value>浏览器安全一</value>
+  </data>
+  <data name="Chart.EnterEvaluateField" xml:space="preserve">
+    <value>求值方式字段列表。</value>
+  </data>
+  <data name="Chart.GaugeTypesPageDesc" xml:space="preserve">
+    <value>有 3 种类型的量表：数字显示仪、速度计和温度计。量表是一种显示单值的控件。</value>
+  </data>
+  <data name="DashboardPartDefListController.DashboardPartDefAliasPlural" xml:space="preserve">
+    <value>仪表板部件</value>
+  </data>
+  <data name="Chart.ThresholdOutOfRange" xml:space="preserve">
+    <value>值不在范围之内。</value>
+  </data>
+  <data name="Chart.TitlePageDesc" xml:space="preserve">
+    <value>图表控件可在右侧、左侧、顶部或底部同时显示 4 个不同的标题和 1 个图例。</value>
+  </data>
+  <data name="DashboardPartControl.BusObViewRight" xml:space="preserve">
+    <value>您无权查看 $$(BUSOBNAME)$$。</value>
+  </data>
+  <data name="Chart.BasicPageDesc" xml:space="preserve">
+    <value>用于控件的一般数据。</value>
+  </data>
+  <data name="PartControl.ContractHorizontally" xml:space="preserve">
+    <value>水平折叠</value>
+  </data>
+  <data name="CustomDateRangeControl.End" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="Chart.FieldSelectionPageHeading" xml:space="preserve">
+    <value>主分组选择</value>
+  </data>
+  <data name="DashboardDefListController.EditDashboardPart" xml:space="preserve">
+    <value>编辑 $$(OBJECTALIAS)$$</value>
+  </data>
+  <data name="DashboardDefCtrl.ScopeChanged" xml:space="preserve">
+    <value>此仪表板可能包含没有为所选范围显示的部件。检查布局部分并确认所有部件的可见性。</value>
+  </data>
+  <data name="DrilldownPage.Row2" xml:space="preserve">
+    <value>第2行</value>
+  </data>
+  <data name="DrilldownPage.Row1" xml:space="preserve">
+    <value>第1行</value>
+  </data>
+  <data name="DrilldownPage.Row0" xml:space="preserve">
+    <value>第0行</value>
+  </data>
+  <data name="PartStatus.Reload" xml:space="preserve">
+    <value>重新加载</value>
+  </data>
+  <data name="LinkLabelViewMenu.LinkText" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="ChartColorTheme.UrbanHues" xml:space="preserve">
+    <value>城市色调</value>
+  </data>
+  <data name="Chart.ChartLabelStyle" xml:space="preserve">
+    <value>选择此控件的标签样式。</value>
+  </data>
+  <data name="Chart.ThresholdValueError" xml:space="preserve">
+    <value>值不正确！请检查阈值。</value>
+  </data>
+  <data name="ChartColorTheme.ProgressiveNaturals" xml:space="preserve">
+    <value>进化的大自然</value>
+  </data>
+  <data name="Chart.RunTimeOptionPageDesc" xml:space="preserve">
+    <value>选择日期范围和间隔的运行时选择。</value>
+  </data>
+  <data name="Chart.EnterAlias" xml:space="preserve">
+    <value>控件的别名</value>
+  </data>
+  <data name="Chart.EnterScope" xml:space="preserve">
+    <value>控件的范围</value>
+  </data>
+  <data name="Chart.EnterTitle" xml:space="preserve">
+    <value>控件的标题</value>
+  </data>
+  <data name="SpecificDatePicker.DateTimeRangeNotSelected" xml:space="preserve">
+    <value>请输入起始值和结束值</value>
+  </data>
+  <data name="DateRange.NextQuarter" xml:space="preserve">
+    <value>下季度</value>
+  </data>
+  <data name="PartControl.ExpandHorizontally" xml:space="preserve">
+    <value>水平展开</value>
+  </data>
+  <data name="MSProject.FileExtension" xml:space="preserve">
+    <value>项目文件 (*.mpp)|*.mpp|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="Chart.ChartDrilldownBar" xml:space="preserve">
+    <value>条形图</value>
+  </data>
+  <data name="Chart.ChartDrilldownPie" xml:space="preserve">
+    <value>饼图</value>
+  </data>
+  <data name="DragonFlowInc" xml:space="preserve">
+    <value>SiteView, Inc.  </value>
+  </data>
+  <data name="ViewDef.Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="Chart.EnterGroupByField1" xml:space="preserve">
+    <value>字段列表。</value>
+  </data>
+  <data name="MultiQueryGridPartDefPropertyCtrl.TabText" xml:space="preserve">
+    <value>Xml 定义</value>
+  </data>
+  <data name="Chart.VerticalRightFacingLabel" xml:space="preserve">
+    <value>垂直向右</value>
+  </data>
+  <data name="GridQueryOptionCtrl.SearchGroupToolTip" xml:space="preserve">
+    <value>查找或创建一个搜索群组。</value>
+  </data>
+  <data name="Chart.LegendMarginBottom" xml:space="preserve">
+    <value>下边距(像素)</value>
+  </data>
+  <data name="Chart.PercentValueLabelStyle" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="DashboardPartControl.DepedentPart" xml:space="preserve">
+    <value>这部分取决于 $$(PARENTPART)$$ </value>
+  </data>
+  <data name="Chart.Pipeline" xml:space="preserve">
+    <value>管道图表类型</value>
+  </data>
+  <data name="ChartColorTheme.HistoricalCombinations" xml:space="preserve">
+    <value>历史组合</value>
+  </data>
+  <data name="HourInterval.SevenPM" xml:space="preserve">
+    <value>下午 7 点</value>
+  </data>
+  <data name="HourInterval.SevenAM" xml:space="preserve">
+    <value>上午 7 点</value>
+  </data>
+  <data name="MonthInterval.Dec" xml:space="preserve">
+    <value>十二月</value>
+  </data>
+  <data name="MonthInterval.Aug" xml:space="preserve">
+    <value>八月</value>
+  </data>
+  <data name="MonthInterval.Apr" xml:space="preserve">
+    <value>四月</value>
+  </data>
+  <data name="MonthInterval.Feb" xml:space="preserve">
+    <value>二月</value>
+  </data>
+  <data name="MonthInterval.May" xml:space="preserve">
+    <value>五月</value>
+  </data>
+  <data name="MonthInterval.Mar" xml:space="preserve">
+    <value>三月</value>
+  </data>
+  <data name="MonthInterval.Oct" xml:space="preserve">
+    <value>十月</value>
+  </data>
+  <data name="MonthInterval.Nov" xml:space="preserve">
+    <value>十一月</value>
+  </data>
+  <data name="MonthInterval.Jan" xml:space="preserve">
+    <value>一月</value>
+  </data>
+  <data name="MonthInterval.Jun" xml:space="preserve">
+    <value>六月</value>
+  </data>
+  <data name="MonthInterval.Jul" xml:space="preserve">
+    <value>七月</value>
+  </data>
+  <data name="MonthInterval.Sep" xml:space="preserve">
+    <value>九月</value>
+  </data>
+  <data name="PartStatus.Loading" xml:space="preserve">
+    <value>载入...</value>
+  </data>
+  <data name="Chart.InputName" xml:space="preserve">
+    <value>请输入名称</value>
+  </data>
+  <data name="PartRefPropertyDlg.PropertyDlg" xml:space="preserve">
+    <value>$$(NAME)$$ 属性</value>
+  </data>
+  <data name="GridQueryOptionCtrl.Next" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="GridQueryOptionCtrl.Last" xml:space="preserve">
+    <value>最后一个</value>
+  </data>
+  <data name="PartMenu.Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Chart.DataRangeMax" xml:space="preserve">
+    <value>为 X 轴或 Y 轴输入数据范围内的适当最大值。</value>
+  </data>
+  <data name="Chart.DataRangeMin" xml:space="preserve">
+    <value>为 X 轴或 Y 轴输入数据范围内的适当最小值。</value>
+  </data>
+  <data name="Chart.LegendLocationRight" xml:space="preserve">
+    <value>右侧</value>
+  </data>
+  <data name="GridQueryOptionCtrl.DateTimeFieldForDateRangeNotSelected" xml:space="preserve">
+    <value>请选择日期时间字段。</value>
+  </data>
+  <data name="GridPartDefPropertyCtrl.TabText" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="Chart.SeriesLabel" xml:space="preserve">
+    <value>序列标签</value>
+  </data>
+  <data name="GridPartControl.NoDataMessage" xml:space="preserve">
+    <value>没有要显示的行。</value>
+  </data>
+  <data name="Chart.GaugeTypesPageHeading" xml:space="preserve">
+    <value>量表类型</value>
+  </data>
+  <data name="Chart.InfragisticNullColumn" xml:space="preserve">
+    <value>列 1</value>
+  </data>
+  <data name="Chart.RunTimeOptionPageHeading" xml:space="preserve">
+    <value>运行时选项</value>
+  </data>
+  <data name="DateRange.None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Chart.PipelineRadioBtn" xml:space="preserve">
+    <value>管道图</value>
+  </data>
+  <data name="ChartTitlePage.Column2" xml:space="preserve">
+    <value>第2列</value>
+  </data>
+  <data name="ChartTitlePage.Column3" xml:space="preserve">
+    <value>第3列</value>
+  </data>
+  <data name="ChartTitlePage.Column1" xml:space="preserve">
+    <value>第1列</value>
+  </data>
+  <data name="ChartColorTheme.FRS" xml:space="preserve">
+    <value>快速检索储存器</value>
+  </data>
+  <data name="Chart.GaugeChart" xml:space="preserve">
+    <value>量表类型</value>
+  </data>
+  <data name="PartControl.ExpandVertically" xml:space="preserve">
+    <value>垂直展开</value>
+  </data>
+  <data name="Chart.ItemLabelLabelStyle" xml:space="preserve">
+    <value>项目标签</value>
+  </data>
+  <data name="Chart.ChartDrilldownSubGroupByPageDesc" xml:space="preserve">
+    <value>提供定义钻取图表辅助分组方法选择的功能部件。</value>
+  </data>
+  <data name="DataConverter.DurationDay" xml:space="preserve">
+    <value>$$(DURATION)$$ 天</value>
+  </data>
+  <data name="Chart.TimeBasedDirectionLast" xml:space="preserve">
+    <value>最后一个</value>
+  </data>
+  <data name="Chart.TimeBasedDirectionNext" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="DataConverter.DurationQuarters" xml:space="preserve">
+    <value>$$(DURATION)$$ 季</value>
+  </data>
+  <data name="Chart.ColorModelStyle" xml:space="preserve">
+    <value>选择的颜色模式确定填充色。</value>
+  </data>
+  <data name="PartControl.Properties" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="DataConverter.DurationMinutes" xml:space="preserve">
+    <value>$$(DURATION)$$ 分钟</value>
+  </data>
+  <data name="Chart.ColorModelColor" xml:space="preserve">
+    <value>选择颜色并将其添加到以下自定义调色板中。可以通过单击先填充的单元格确定颜色序列。</value>
+  </data>
+  <data name="DateRange.ThisWeek" xml:space="preserve">
+    <value>本周</value>
+  </data>
+  <data name="DateRange.ThisYear" xml:space="preserve">
+    <value>今年</value>
+  </data>
+  <data name="Chart.LegendMarginRight" xml:space="preserve">
+    <value>右边距(像素)</value>
+  </data>
+  <data name="Chart.BarRadioBtn" xml:space="preserve">
+    <value>条形图</value>
+  </data>
+  <data name="Chart.ChartDrilldownPageHeading" xml:space="preserve">
+    <value>图表钻取</value>
+  </data>
+  <data name="DurationUnit.Seconds" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="HourInterval.ElevenAM" xml:space="preserve">
+    <value>上午 11 点</value>
+  </data>
+  <data name="HourInterval.ElevenPM" xml:space="preserve">
+    <value>下午 11 点</value>
+  </data>
+  <data name="CustomDateRangeControl.Start" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="Chart.BusObNotSelected" xml:space="preserve">
+    <value>请选择业务对象。</value>
+  </data>
+  <data name="Chart.ChartDrilldownSubGroupByPageHeading" xml:space="preserve">
+    <value>子图表 – 辅助分组选择</value>
+  </data>
+  <data name="TimeInterval.None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DataConverter.YearMonthDayHour" xml:space="preserve">
+    <value>$$(YEAR)$$/$$(MONTH)$$/$$(DAY)$$/$$(HOUR)$$</value>
+  </data>
+  <data name="Chart.FunnelRadioBtn" xml:space="preserve">
+    <value>漏斗图</value>
+  </data>
+  <data name="TimeInterval.Monthly" xml:space="preserve">
+    <value>每月</value>
+  </data>
+  <data name="ChartColorTheme.QuietTones" xml:space="preserve">
+    <value>安静的色调</value>
+  </data>
+  <data name="PartControl.ContractVertically" xml:space="preserve">
+    <value>垂直折叠</value>
+  </data>
+  <data name="Chart.GaugeAppearancePageDesc" xml:space="preserve">
+    <value>设置量表控件的功能部件，包括阈值范围、颜色、标题和标签说明。</value>
+  </data>
+  <data name="DashboardDefListController.NewDashboardPart" xml:space="preserve">
+    <value>新建 $$(OBJECTALIAS)$$</value>
+  </data>
+  <data name="SpecificDatePicker.ChooseDate" xml:space="preserve">
+    <value>选择日期...</value>
+  </data>
+  <data name="ChartColorTheme.ArtNouveau" xml:space="preserve">
+    <value>新兴艺术</value>
+  </data>
+  <data name="DataConverter.MonthDayYear" xml:space="preserve">
+    <value>$$(MONTH)$$/$$(DAY)$$/$$(YEAR)$$</value>
+  </data>
+  <data name="Chart.LabelSeriesStyle" xml:space="preserve">
+    <value>选择序列标签样式。</value>
+  </data>
+  <data name="Chart.ThresholdColor" xml:space="preserve">
+    <value>选择标准的绿色、黄色和红色作为“低”、“中”、“高”阈值颜色，或选择您个人的首选颜色。</value>
+  </data>
+  <data name="Chart.TitlePageHeading" xml:space="preserve">
+    <value>标题、图例和背景选择</value>
+  </data>
+  <data name="Chart.ChartDrilldownPageDesc" xml:space="preserve">
+    <value>提供定义钻取图表或网格的功能部件。</value>
+  </data>
+  <data name="Chart.ThermometerRadioBtn" xml:space="preserve">
+    <value>温度计</value>
+  </data>
+  <data name="GridQueryOptionCtrl.QueryGroupNotSelected" xml:space="preserve">
+    <value>请选择搜索群组。</value>
+  </data>
+  <data name="LinkDefDlg.QueryGroupNotDefined" xml:space="preserve">
+    <value>请选择搜索群组。</value>
+  </data>
+  <data name="AmountOfTime.None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="AmountOfTime.Days" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="Chart.PieChart" xml:space="preserve">
+    <value>饼图</value>
+  </data>
+  <data name="Chart.LegendSpanPercentage" xml:space="preserve">
+    <value>图表长度或宽度的百分比取决于图例的位置</value>
+  </data>
+  <data name="QuarterInterval.Q1" xml:space="preserve">
+    <value>Q1</value>
+  </data>
+  <data name="QuarterInterval.Q3" xml:space="preserve">
+    <value>Q3</value>
+  </data>
+  <data name="QuarterInterval.Q2" xml:space="preserve">
+    <value>Q2</value>
+  </data>
+  <data name="QuarterInterval.Q4" xml:space="preserve">
+    <value>Q4</value>
+  </data>
+  <data name="Chart.ValidateSubCategory" xml:space="preserve">
+    <value>子类别字段不能与类别字段相同。</value>
+  </data>
+  <data name="SpecificDatePicker.ChooseFunction" xml:space="preserve">
+    <value>选择日期函数...</value>
+  </data>
+  <data name="DataConverter.MonthYear" xml:space="preserve">
+    <value>$$(MONTH)$$/$$(YEAR)$$</value>
+  </data>
+  <data name="Chart.QuerySumFunction" xml:space="preserve">
+    <value>QueryFunctions.SumOfAllValuesFunction</value>
+  </data>
+  <data name="Chart.ChartAppearancePageHeading" xml:space="preserve">
+    <value>图表标签和工具提示选择</value>
+  </data>
+  <data name="Chart.TooltipHighlightFillColor" xml:space="preserve">
+    <value>选择用于填充突出显示区的颜色。</value>
+  </data>
+  <data name="Chart.PieLabelPercentFormatString" xml:space="preserve">
+    <value>(ITEM_LABEL) = (PERCENT_VALUE:#0.00)%</value>
+  </data>
+  <data name="Chart.LegendMarginTop" xml:space="preserve">
+    <value>上边距(像素)</value>
+  </data>
+  <data name="TimeInterval.Quarterly" xml:space="preserve">
+    <value>每季</value>
+  </data>
+  <data name="DateRange.LastQuarter" xml:space="preserve">
+    <value>上季度</value>
+  </data>
+  <data name="DashboardDefCtrl.ScopeOwnerChanged" xml:space="preserve">
+    <value>此仪表板可能包含没有为所选范围负责人显示的部件。检查布局部分并确认所有部件的可见性。</value>
+  </data>
+  <data name="Chart.EnterScopeOwner" xml:space="preserve">
+    <value>控件的范围负责人</value>
+  </data>
+  <data name="ChartColorTheme.Masters" xml:space="preserve">
+    <value>主</value>
+  </data>
+  <data name="ChartColorTheme.DarkenTones" xml:space="preserve">
+    <value>深色调</value>
+  </data>
+  <data name="DurationUnit.Weeks" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="DurationUnit.Years" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="DateRange.ThisQuarter" xml:space="preserve">
+    <value>本季</value>
+  </data>
+  <data name="Chart.ThresholdRangeError" xml:space="preserve">
+    <value>最小值应小于最大值。</value>
+  </data>
+  <data name="DurationUnit.Hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="QueryLimitCtrl.Top" xml:space="preserve">
+    <value>上限</value>
+  </data>
+  <data name="DashboardPartDefListController.NewDashboardPart" xml:space="preserve">
+    <value>新建 $$(CATEGORY)$$</value>
+  </data>
+  <data name="DateRange.LastYear" xml:space="preserve">
+    <value>去年</value>
+  </data>
+  <data name="DateRange.LastWeek" xml:space="preserve">
+    <value>上周</value>
+  </data>
+  <data name="OutlookInboxPartControl.OutlookControlNotAvailable" xml:space="preserve">
+    <value>Outlook 控件不可用。</value>
+  </data>
+  <data name="Chart.TitleBottom" xml:space="preserve">
+    <value>底部标题</value>
+  </data>
+  <data name="GridRunTimeOptionCtrl.BusObNameChanged" xml:space="preserve">
+    <value>请确认“视图”搜索群组对选择的业务对象有效。 </value>
+  </data>
+  <data name="Chart.SingleCategoryTooltipFormat" xml:space="preserve">
+    <value>(ITEM_LABEL) = (DATA_VALUE:0)</value>
+  </data>
+  <data name="Chart.SubGroupByPageHeading" xml:space="preserve">
+    <value>辅助分组选择</value>
+  </data>
+  <data name="Chart.BasicPageHeading" xml:space="preserve">
+    <value>基本信息</value>
+  </data>
+  <data name="Chart.GaugeAppearancePageHeading" xml:space="preserve">
+    <value>量表外观</value>
+  </data>
+  <data name="SpecificDatePicker.ChooseField" xml:space="preserve">
+    <value>选择字段...</value>
+  </data>
+  <data name="ChartColorTheme.EclecticMix" xml:space="preserve">
+    <value>折衷</value>
+  </data>
+  <data name="Chart.DefaultTitleStringWith2GroupBy" xml:space="preserve">
+    <value>{0} 和 {1}</value>
+  </data>
+  <data name="PartStatus.ExceptionOccurred" xml:space="preserve">
+    <value>发生异常: {0}</value>
+  </data>
+  <data name="PartMenu.Print" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="Chart.EnterDescription" xml:space="preserve">
+    <value>控件的详细资料</value>
+  </data>
+  <data name="Chart.TooltipStyle" xml:space="preserve">
+    <value>选择工具提示样式。</value>
+  </data>
+  <data name="Gauge.TitlePageHeading" xml:space="preserve">
+    <value>标题和指针的颜色选择</value>
+  </data>
+  <data name="Chart.PipelineChart" xml:space="preserve">
+    <value>管道图</value>
+  </data>
+  <data name="SpecificDatePicker.DateTimeRangeNotValid" xml:space="preserve">
+    <value>结束日期应该在开始日期之后!</value>
+  </data>
+  <data name="HourInterval.EightAM" xml:space="preserve">
+    <value>上午 8 点</value>
+  </data>
+  <data name="HourInterval.EightPM" xml:space="preserve">
+    <value>下午 8 点</value>
+  </data>
+  <data name="Chart.QueryAverageFunction" xml:space="preserve">
+    <value>QueryFunctions.AverageAllValuesFunction</value>
+  </data>
+  <data name="DateRange.NextWeek" xml:space="preserve">
+    <value>下周</value>
+  </data>
+  <data name="DateRange.NextYear" xml:space="preserve">
+    <value>明年</value>
+  </data>
+  <data name="PartControl.Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Chart.DrilldownTitleString" xml:space="preserve">
+    <value>钻取 </value>
+  </data>
+  <data name="CustomDateRangeControl.Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="DataConverter.DurationMinute" xml:space="preserve">
+    <value>$$(DURATION)$$ 分钟</value>
+  </data>
+  <data name="DataConverter.DurationMonths" xml:space="preserve">
+    <value>$$(DURATION)$$ 月</value>
+  </data>
+  <data name="ChartColorTheme.Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="Chart.DataValueLabelStyle" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="Chart.SelectRecordPageDesc" xml:space="preserve">
+    <value>选择可选的默认时间范围。 </value>
+  </data>
+  <data name="Chart.TitleRight" xml:space="preserve">
+    <value>右侧标题</value>
+  </data>
+  <data name="Chart.LegendLocationTop" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="DurationUnit.Quarters" xml:space="preserve">
+    <value>季</value>
+  </data>
+  <data name="WebBrowserPartDefPropertyCtrl.UrlNotSelected" xml:space="preserve">
+    <value>请输入 URL。</value>
+  </data>
+  <data name="Chart.ImageStyleCentered" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="Chart.TitleLeft" xml:space="preserve">
+    <value>左侧标题</value>
+  </data>
+  <data name="GridRunTimeOptionCtrl.TabText" xml:space="preserve">
+    <value>运行时选项</value>
+  </data>
+  <data name="Chart.TitleTop" xml:space="preserve">
+    <value>顶部标题</value>
+  </data>
+  <data name="DataConverter.QuarterYear" xml:space="preserve">
+    <value>$$(QUARTER)$$/$$(YEAR)$$</value>
+  </data>
+  <data name="Chart.FunnelChart" xml:space="preserve">
+    <value>漏斗图表类型</value>
+  </data>
+  <data name="Chart.LegendLocationBottom" xml:space="preserve">
+    <value>底部</value>
+  </data>
+  <data name="AmountOfTime.Years" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="DashboardPartDefListController.DeleteDashboardParts" xml:space="preserve">
+    <value>以下项目正在使用此仪表板部件。是否确定要删除该部件？</value>
+  </data>
+  <data name="Chart.LineRadioBtn" xml:space="preserve">
+    <value>折线图</value>
+  </data>
+  <data name="Chart.TickMarkStylePercentage" xml:space="preserve">
+    <value>两个勾号之间的距离，用数据范围百分比表示。</value>
+  </data>
+  <data name="AmountOfTime.Hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="DashboardPartControl.DateRangeDropDownLabel" xml:space="preserve">
+    <value>日期范围</value>
+  </data>
+  <data name="PartStatus.CanceledByUser" xml:space="preserve">
+    <value>被用户取消</value>
+  </data>
+  <data name="GridPartControl.ShowGroupBy" xml:space="preserve">
+    <value>显示群组</value>
+  </data>
+  <data name="Chart.BusObSelectionPageDesc" xml:space="preserve">
+    <value>首先选择业务对象。然后选择返回所有记录，或选择使用现有搜索群组从选择的业务对象返回一组记录。 </value>
+  </data>
+  <data name="Chart.NoDateTimeField" xml:space="preserve">
+    <value>请选择日期时间类型的字段。</value>
+  </data>
+  <data name="Chart.VerticalLeftFacingLabel" xml:space="preserve">
+    <value>垂直向左</value>
+  </data>
+  <data name="DataConverter.DurationMonth" xml:space="preserve">
+    <value>$$(DURATION)$$ 月</value>
+  </data>
+  <data name="DataConverter.DurationHours" xml:space="preserve">
+    <value>$$(DURATION)$$ 小时</value>
+  </data>
+  <data name="DataConverter.DurationWeeks" xml:space="preserve">
+    <value>$$(DURATION)$$ 周</value>
+  </data>
+  <data name="DataConverter.DurationYears" xml:space="preserve">
+    <value>$$(DURATION)$$ 年</value>
+  </data>
+  <data name="Gauge.Low" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="Chart.SeriesFormatString" xml:space="preserve">
+    <value>(SERIES_LABEL)</value>
+  </data>
+  <data name="Chart.PieDataValueFormatString" xml:space="preserve">
+    <value>(DATA_VALUE:#0.00)</value>
+  </data>
+  <data name="ObjectBrowserPartDefPropertyCtrl.TabText" xml:space="preserve">
+    <value>对象浏览器</value>
+  </data>
+  <data name="ViewDefDlg.NoNameSpecified" xml:space="preserve">
+    <value>请输入名称。</value>
+  </data>
+  <data name="Chart.InputThresholdMiddle" xml:space="preserve">
+    <value>值必须在最小值和最大值范围之内。此外，值还应大于前一个上限阈值。</value>
+  </data>
+  <data name="ChartTitlePage.Row2" xml:space="preserve">
+    <value>第2行</value>
+  </data>
+  <data name="ChartTitlePage.Row3" xml:space="preserve">
+    <value>第3行</value>
+  </data>
+  <data name="ChartTitlePage.Row1" xml:space="preserve">
+    <value>第1行</value>
+  </data>
+  <data name="DataConverter.DurationDays" xml:space="preserve">
+    <value>$$(DURATION)$$ 天</value>
+  </data>
+  <data name="DataConverter.DurationHour" xml:space="preserve">
+    <value>$$(DURATION)$$ 小时</value>
+  </data>
+  <data name="DataConverter.DurationWeek" xml:space="preserve">
+    <value>$$(DURATION)$$ 周</value>
+  </data>
+  <data name="DataConverter.DurationYear" xml:space="preserve">
+    <value>$$(DURATION)$$ 年</value>
+  </data>
+  <data name="Chart.ChartTypesPageHeading" xml:space="preserve">
+    <value>图表类型</value>
+  </data>
+  <data name="Chart.ImageStyleStretchedFit" xml:space="preserve">
+    <value>扩展</value>
+  </data>
+  <data name="TimeInterval.Hourly" xml:space="preserve">
+    <value>每小时</value>
+  </data>
+  <data name="Chart.BusObSelectionPageHeading" xml:space="preserve">
+    <value>业务对象和记录选择</value>
+  </data>
+  <data name="MultiViewGridPartDefPropertyCtrl.TabText" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="DateRange.All" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Chart.LegendMarginLeft" xml:space="preserve">
+    <value>左边距(像素)</value>
+  </data>
+  <data name="DateRange.Tomorrow" xml:space="preserve">
+    <value>明天</value>
+  </data>
+  <data name="DashboardDefListController.DashboardDefAlias" xml:space="preserve">
+    <value>仪表板</value>
+  </data>
+  <data name="GridOptionCtrl.GridDefNotSelected" xml:space="preserve">
+    <value>请选择网格定义。</value>
+  </data>
+  <data name="Chart.FormatString" xml:space="preserve">
+    <value>选择默认设置或调整数据精度与长度。</value>
+  </data>
+  <data name="Chart.ChartTypesPageDesc" xml:space="preserve">
+    <value>有 8 种类型的图表：条形图、柱形图、折线图、饼图和标准度量图。饼图和标准度量图不适用于基于时间的类别。</value>
+  </data>
+  <data name="Chart.Legend" xml:space="preserve">
+    <value>图表控件的图例</value>
+  </data>
+  <data name="DashboardEditorGrid.ReplaceParts" xml:space="preserve">
+    <value>即将取代以下部件：$$(PARTLIST)$$，是否仍要取代？</value>
+  </data>
+  <data name="HourInterval.FourPM" xml:space="preserve">
+    <value>下午 4 点</value>
+  </data>
+  <data name="HourInterval.FourAM" xml:space="preserve">
+    <value>上午 4 点</value>
+  </data>
+  <data name="Chart.OthersName" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="HourInterval.FiveAM" xml:space="preserve">
+    <value>上午 5 点</value>
+  </data>
+  <data name="HourInterval.FivePM" xml:space="preserve">
+    <value>下午 5 点</value>
+  </data>
+  <data name="ImagePartDefPropertyCtrl.ImageNotSelected" xml:space="preserve">
+    <value>请选择图像。</value>
+  </data>
+  <data name="Chart.WizardTitle" xml:space="preserve">
+    <value>欢迎使用图表向导</value>
+  </data>
+  <data name="Chart.FieldHasNoViewRight" xml:space="preserve">
+    <value>您无权查看业务对象的字段。</value>
+  </data>
+  <data name="Chart.QueryMaxFunction" xml:space="preserve">
+    <value>QueryFunctions.MaxValueFunction</value>
+  </data>
+  <data name="DataConverter.DurationSecond" xml:space="preserve">
+    <value>$$(DURATION)$$ 秒</value>
+  </data>
+  <data name="Chart.NullGroupByFieldValue" xml:space="preserve">
+    <value>没有值</value>
+  </data>
+  <data name="MSProjectPartDefPropertyCtrl.FileNotSelected" xml:space="preserve">
+    <value>请输入完整路径文件名。</value>
+  </data>
+  <data name="Chart.MinValue" xml:space="preserve">
+    <value>量表的最小值。</value>
+  </data>
+  <data name="DataConverter.DurationSeconds" xml:space="preserve">
+    <value>$$(DURATION)$$ 秒</value>
+  </data>
+  <data name="Chart.NoDataSource" xml:space="preserve">
+    <value>数据源无效！</value>
+  </data>
+  <data name="DashboardPartDefPropertyCtrl.TabText" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="HourInterval.TwelveAM" xml:space="preserve">
+    <value>上午 12 点</value>
+  </data>
+  <data name="HourInterval.TwelvePM" xml:space="preserve">
+    <value>下午 12 点</value>
+  </data>
+  <data name="DashboardPartDefListController.DeleteDashboardPart" xml:space="preserve">
+    <value>以下项目正在使用此仪表板部件。是否确定要删除该部件？</value>
+  </data>
+  <data name="DashboardEditorGrid.ReplacePart" xml:space="preserve">
+    <value>即将取代 $$(PARTLIST)$$ 部件。是否确定要取代？</value>
+  </data>
+  <data name="DashboardPartControl.PrintTotal" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="Chart.PieTooltipFormat" xml:space="preserve">
+    <value>(SERIES_LABEL) = (DATA_VALUE:0)</value>
+  </data>
+  <data name="Chart.PercentFormatString" xml:space="preserve">
+    <value>(PERCENT_VALUE:#0)%</value>
+  </data>
+  <data name="DateRange.NextMonth" xml:space="preserve">
+    <value>下个月</value>
+  </data>
+  <data name="GaugeLinearPartControl.Temperature" xml:space="preserve">
+    <value>温度： </value>
+  </data>
+  <data name="Chart.QueryCountFunction" xml:space="preserve">
+    <value>QueryFunctions.CountOfAllValuesFunction</value>
+  </data>
+  <data name="Chart.ChartAppearancePageDesc" xml:space="preserve">
+    <value>设置图表控件外观的功能部件，包括标签和工具提示样式。</value>
+  </data>
+  <data name="DashboardPartDefListController.DashboardPartDefAlias" xml:space="preserve">
+    <value>仪表板部件</value>
+  </data>
+  <data name="Chart.EvaluateByFieldAverage" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="DashboardDefListController.DashboardDefAliasPlural" xml:space="preserve">
+    <value>仪表板</value>
+  </data>
+  <data name="HourInterval.NinePM" xml:space="preserve">
+    <value>下午 9 点</value>
+  </data>
+  <data name="HourInterval.NineAM" xml:space="preserve">
+    <value>上午 9 点</value>
+  </data>
+  <data name="ChartColorTheme.Accent" xml:space="preserve">
+    <value>强调</value>
+  </data>
+  <data name="Chart.QueryMinFunction" xml:space="preserve">
+    <value>QueryFunctions.MinValueFunction</value>
+  </data>
+  <data name="GridPartControl.CompareMerge" xml:space="preserve">
+    <value>比较/合并...</value>
+  </data>
+  <data name="PartMenu.AutoTask" xml:space="preserve">
+    <value>快速操作中心</value>
+  </data>
+  <data name="Chart.LinearGaugeAppearancePageDesc" xml:space="preserve">
+    <value>线性测量区域限制，可以在这里定义。</value>
+  </data>
+  <data name="Chart.LinearGaugeAppearancePageHeading" xml:space="preserve">
+    <value>线性仪表地区</value>
+  </data>
+  <data name="Gauge.TitlePageDesc" xml:space="preserve">
+    <value>标题，背景颜色，形式可以在这里改变。</value>
+  </data>
+  <data name="rbRemoveRefs.Text" xml:space="preserve">
+    <value>删除参考$$(DashboardPart)$$，在下面的仪表板中</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="rbDelete.Text" xml:space="preserve">
+    <value>删除 $$(DashboardPart)$$</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>删除仪表板部件</value>
+  </data>
+  <data name="RegionControl.NoRegionColorSelected" xml:space="preserve">
+    <value>请选择区域颜色</value>
+  </data>
+  <data name="RegionValueControl.NoColorAndEndValueSpecified" xml:space="preserve">
+    <value>请给一个结束值</value>
+  </data>
+  <data name="RegionValueControl.NoEndValueSpecified" xml:space="preserve">
+    <value>请输入限制</value>
+  </data>
+  <data name="ChartPartControl.FieldsWithOutViewRights" xml:space="preserve">
+    <value>图表无法显示，因为您没有权限查看下面的字段：$$(FIELDS)$$. 系统管理员可以授予您查看的权利。</value>
+  </data>
+  <data name="DashboardPartControl.NoRights" xml:space="preserve">
+    <value>您没有权利以查看 $$(BUSINESSOBJECTNAME)$$ 业务对象。系统管理员可以授予您的权利，以查看此业务对象。</value>
+  </data>
+  <data name="MultiQueryGridPartControl.GroupbyFieldNoViewRight" xml:space="preserve">
+    <value>您没有权利以查看 $$(FIELD)$$ 本业务对象字段。网格将不会显示。系统管理员可以给你的权利。</value>
+  </data>
+</root>
